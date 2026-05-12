@@ -18,7 +18,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas xlrd
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run Preprocessing
         run: python preprocessing/automate_Nama-siswa.py
