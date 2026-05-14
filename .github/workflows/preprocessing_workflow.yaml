@@ -22,7 +22,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Preprocessing
-        run: python preprocessing/automate_Nama-siswa.py
+        run: python preprocessing/automate_Juan-Hendy.py
 
       - name: Upload Preprocessed Data
         uses: actions/upload-artifact@v4
